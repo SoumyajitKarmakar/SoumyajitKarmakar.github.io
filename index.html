@@ -55,8 +55,9 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>Research</heading>
                   <p>
-                    I am interested in computer vision and deep learning. My current research interests lie in intersection of vision and language models, with a focus 
-                    on Contrastive-Loss based models like CLIP. I have previously worked on various topics such as Diffusion Models, 
+                    I am interested in deep learning and computer vision. My current research interests lie in intersection of vision and language models, with a focus 
+                    on Contrastive-Loss based models like CLIP. I have previously worked on various topics such as Latent Diffusion Models, Person Re-identification, and 
+                    Few-Shot learning.
                   </p>
                 </td>
               </tr>
@@ -69,9 +70,14 @@
           <heading>News</heading>
           <p style="margin-left: 40px">
           <ul>
-            <li><b>Oct 2023</b> - Paper on "A Study on ViTs Augmented by Masked Autoencoders" accepted at WACV 2024. </li>
-            <li><b>Sept 2023</b> - Joined Vision and AI Lab (VAL), IISc as a Project Assistant. </li>
-            <li><b>Sept 2023</b> - Joined  (CVIT), IIITH as a Research Fellow for my Bachelor's thesis. </li>
+            <li><b>Oct 2023</b> - Paper on "A Study on ViTs Augmented by Masked Autoencoders" accepted at WACV 2024.</li>
+            <li><b>Sept 2023</b> - Joined VAL, IISc as a Project Assistant under Prof. R. Venkatesh Babu.</li>
+            <li><b>Jan 2023</b> - Joined CVIT, IIITH as a Research Fellow for my Bachelor's thesis under  Prof. C. V. Jawahar.</li>
+            <li><b>Oct 2022</b> - Paper on "Convolutional Ensembling based Few-Shot Defect Detection Technique" accepted at ICVGIP 2022.</li>
+            <li><b>Aug 2022</b> - Started a project under Dr. Srijan Das at UNCC.</li>
+            <li><b>July 2022</b> - Secured Global Rank 1 at the PACE 2022 competition in the heuristics track student category.</li>
+            <li><b>May 2022</b> - Joined AITG, CSIR-CEERI as a Research Intern under Dr. Sanjay Singh. </li>
+            <li><b>Aug 2019</b> - Started BTech CSE at IIIT Guwahati.</li>
           </ul>
           </p>
         </td>
@@ -110,9 +116,11 @@
         </td>
         </tr>
         </tbody></table> -->
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+        
+      <!-- ----------------------------------------- -->
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;">
         <p>
-          <!-- <heading>Selected Publications</heading> (For full list of papers, visit my <a href="https://scholar.google.com/citations?user=ZDTF5AEAAAAJ">Google Scholar</a>.) <br> -->
           <heading>Publications</heading>
           <br>
           <tr>
@@ -127,24 +135,14 @@
         </td>
         </tr>
         <p>
-          <tr onmouseout="smalltr_stop()" onmouseover="smalltr_start()" bgcolor="#ffffd0">
+          <tr bgcolor="#ffffd0">
         <td style="padding:70px;width:25%;vertical-align:middle">
         <div class="one">
         <img src='images/wacv24.png' height=175px width=250px>
         </div>
-        <script type="text/javascript">
-          function smalltr_start() {
-            document.getElementById('smalltr').style.opacity = "1";
-          }
-          
-          function paat_stop() {
-            document.getElementById('smalltr_image').style.opacity = "0";
-          }
-          smalltr_stop()
-        </script>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2310.20704">
+        <a href="https://arxiv.org/pdf/2310.20704.pdf">
         <papertitle>Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders</papertitle>
         </a>
         <br>
@@ -157,8 +155,7 @@
         /
         <a href="https://github.com/dominickrei/Limited-data-vits/">code</a>
         <p>
-        We developed a joint training pipeline which uses a Self-Supervised Auxiliary Task (SSAT) alongside the primary task for Vision Transformer that makes 
-        up for it's lack of inductive bias especially when the training data is limited.
+        We developed a joint ViT training pipeline which uses a Self-Supervised Auxiliary Task alongside the primary task, for when the training data is limited.
         </p>
         </td>
         </tr>
@@ -168,77 +165,69 @@
             <subheading class="pub-year">2022</subheading>
           </td>
         </tr>
-        <tr onmouseout="xiangssl_stop()" onmouseover="xiangssl_start()">
-          <td style="padding:70px;width:25%;vertical-align:middle">
+
+        <tr>
+          <td style="padding: 70px; margin: 100px;width:25px"
             <div class="one">
-              <img src='images/Xiang_SSL.png' height=175px width=250px>
+              <img src='images/ICVGIP_few_shot_arch.png' height=175px width=250px>
             </div>
-            <script type="text/javascript">
-              function xiangssl_start() {
-                document.getElementById('Xiang_SSL').style.opacity = "1";
-              }
-              function xiangssl_stop() {
-                document.getElementById('Xing_SSL').style.opacity = "0";
-              }
-              xiangssl_stop()
-            </script>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://arxiv.org/abs/2206.05266">
-              <papertitle>Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?</papertitle>
+            <a href="https://arxiv.org/pdf/2208.03288.pdf">
+              <papertitle>Convolutional Ensembling based Few-Shot Defect Detection Technique</papertitle>
             </a>
             <br>
-            Xiang Li, Jinghuan Shang, <strong>Srijan Das</strong>, Michael S. Ryoo.
+            <strong>Soumyajit Karmakar</strong>, Abeer Banerjee, Prashant Sadashiv Gidde, Sumeet Saurav, and Sanjay Singh.
             <br>
-            <em><strong>NeurIPS 2022</strong></em>
             <br>
-            <a href="https://arxiv.org/abs/2206.05266">arXiv</a>
+            <em>Indian Conference on Computer Vision, Graphics and Image Processing (<strong>ICVGIP</strong>) 2022</em>
+            <br>
+            <a href="https://arxiv.org/abs/2208.03288">arXiv</a>
             /
-            <a href="https://github.com/LostXine/elo-sac">code</a>
-            <p> The impacts of the existing self-supervised losses with  Joint Learning framework for RL is limited, while there is no golden method that can dominate all tasks. </p>
+            <a href="https://github.com/SoumyajitKarmakar/Convolutional-Ensembling-based-Few-Shot-Defect-Detection-Technique">code</a>
+            <p>We developed a novel convolution stacking based ensemble learning technique that can efficiently extract and process the knowledge base of various 
+              pretrained CNN networks.</p>
           </td>
         </tr>
-        <tr onmouseout="trl_stop()" onmouseover="trl_start()">
+
+        <tr>
           <td style="padding:70px;width:25%;vertical-align:middle">
             <div class="one">
-              <img src='images/3dtrl.gif' height=175px width=250px>
+              <img src='images/FEDERER_graph.png' height=175px width=250px>
             </div>
-            <script type="text/javascript">
-              function trl_start() {
-                document.getElementById('TRL').style.opacity = "1";
-              }
-              function trl_stop() {
-                document.getElementById('TRL').style.opacity = "0";
-              }
-              trl_stop()
-            </script>
           </td>
           <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://arxiv.org/pdf/2206.11895.pdf">
-              <papertitle>Learning Viewpoint-Agnostic Visual Representations by Recovering Tokens in 3D Space</papertitle>
+            <a href="https://arxiv.org/">
+              <papertitle>Feedback vertex set using Edge Density and REmove Redundant (FEDRER): A heuristic solver for finding a feedback vertex set in a directed graph</papertitle>
             </a>
             <br>
-            Jinghuan Shang, <strong>Srijan Das</strong>, Michael S. Ryoo.
+            Aman Jain, Sachin Agarwal, Nimish Agrawal, <strong>Soumyajit Karmakar</strong>, Srinibas Swain.
             <br>
-            <em><strong>NeurIPS 2022</strong></em>
             <br>
-            <a href="https://arxiv.org/pdf/2206.11895.pdf">arXiv</a>
+            <em>Poster session of the International Symposium on Parameterized and Exact Computation (<strong>IPEC</strong>), 2022</em>
+            <br>
+            <a href="https://arxiv.org/">arXiv</a>
             /
-            <a href="https://www3.cs.stonybrook.edu/~jishang/3dtrl/3dtrl.html">Project Page</a>
-            /
-            <a href="https://github.com/elicassion/3DTRL">code</a>
-            <p> 3DTRL is a light-weighted, plug-and play layer that recovers 3D information of visual tokens and leverages it for learning viewpoint-agnostic representations.</p>
+            <a href="https://github.com/Amanj2000/PACE-2022-Directed-Feedback-Vertex-Set">code</a>
+            <p> Our submission for the PACE 2022 competition. We developed a novel divide and conquer heuristic algorithm to obtain the Directed Feedback 
+              Vertex Set of a graph.
+            </p>
           </td>
         </tr>
+        
         </p>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Academic Activities</heading>
+                <heading>Academic Activities and other Projects</heading>
                 <p style="margin-left: 40px">
                 <ul>
-                  <li>Program committee member of AAAI-24 Student Program.</li>
+                  <li>Standardized Exam: 331/340 in GRE (162 Verbal Reasoning, 169 in Quantitative Reasoning). 112/120 in TOEFL.</li>
+                  <li>Contributed to open source project CompilerGym. CompilerGym is a open source library of reinforcement learning environments for compiler tasks 
+                    maintained by Facebook Research.</li>
+                  <li>Served as reviewer at ICVGIP 2022.</li>
                 </ul>
                 </p>
               </td>
@@ -261,5 +250,10 @@
         </td>
         </tr>
       </table>
+      <!-- ----------------------------------------- -->
+
+
+
+
   </body>
 </html>
